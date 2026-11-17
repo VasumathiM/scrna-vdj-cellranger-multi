@@ -1,0 +1,12 @@
+ [gene-expression] ,,,
+ reference , test_vm/refdata-gex-GRCh38-2024-A ,,
+ create-bam , false ,,
+ expect-cells ,1000,,
+,,,
+ [vdj] ,,,
+ reference , test_vm/vdj_ref/vdj_reference ,,
+,,,
+ [libraries] ,,,
+ fastq_id , fastqs , lanes , feature_types 
+ sc5p_v2_hs_T_1k_5gex , test_vm/sc5p_v2_hs_T_1k_multi_5gex_t/sc5p_v2_hs_T_1k_5gex_fastqs , 1|2 , Gene  Expression 
+ sc5p_v2_hs_T_1k_t , test_vm/sc5p_v2_hs_T_1k_multi_5gex_t/sc5p_v2_hs_T_1k_t_fastqs , 1|2 , VDJ-T 

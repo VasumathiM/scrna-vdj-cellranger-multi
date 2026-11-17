@@ -1,0 +1,12 @@
+data/
+*.fastq.gz
+*.bam
+*.bai
+*.h5
+*.cloupe
+*.vloupe
+refdata-*/
+vdj_ref/
+T1k_run/
+*.tar
+*.tar.gz
